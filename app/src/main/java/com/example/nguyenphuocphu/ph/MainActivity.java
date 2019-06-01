@@ -20,6 +20,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+<<<<<<< HEAD
         btnVoco = (Button) findViewById(R.id.btnVoco);
         btnHuuco = (Button) findViewById(R.id.btnHuuco);
         textView = (TextView) findViewById(R.id.textView);
@@ -37,6 +38,9 @@ public class MainActivity extends AppCompatActivity {
             }
         });
         btnHuuco.setOnClickListener(new View.OnClickListener() {
+=======
+
+>>>>>>> 177cc40e4511c2f4fe784113484ce9698c4bd407
 
             public void onClick(View view) {
                 startActivity(new Intent(MainActivity.this, GridView2Activity.class));
